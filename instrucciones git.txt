@@ -1,0 +1,20 @@
+PASO 1: primero clonar el proyecto
+
+git clone url_delproyecto // esto nos genera la carpeta del repositorio
+
+AGREGAR ARCHIVOS
+
+PAS0 1: creamos los archivos
+PASO 2: parados en la carpeta del repositorio abrimos la consola de git
+PASO 3: SIEMPRE HACER UN STATUS PARA VER LOS CAMBIOS
+PASO 4: agregamos los archivos nuevos para comitear
+
+git add nombreDelArchivo.extension
+
+PASO 5: hacer el comit
+
+git commit -m "aca va mi comentario de commit"
+
+PASO 6: pushamos a la rama
+
+git push origin master
